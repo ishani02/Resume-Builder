@@ -1,0 +1,123 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.register{
+  justify-content: space-evenly;
+   /* background: red; */
+   /* align-items: center; */
+   width:50%;
+   height: 370px;
+   margin-left: 550px;
+   margin-top: 140px;
+}
+
+.gradient-border {
+  --borderWidth: 5px;
+  background: white;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.register-text{
+  justify-content: space-around;
+   font-size: xx-large;
+   margin-left: 95px;
+  justify-content: space-between;
+  padding: 20px;
+  color:  #182C61;
+}
+
+.register-textarea{
+    color: #182C61; 
+      margin-top: 13px;
+      /* margin-left: 100px; */
+      width: 100%;
+      height: 50%;
+      justify-content: space-between;
+      
+}
+
+input{
+  width: 95%;
+  height: 35px;
+  margin-left: 1%;
+  padding: 0.5%;
+  margin-top: 2px;
+  margin-bottom: 6px;
+  justify-content: space-between;
+  
+}
+label{
+  margin-left: 1%;
+  
+}
+
+.register-btn{
+  margin-left: 199px;
+  width: 190px;
+  height: 45px;
+  margin-top: 35px;
+  padding: 3px;
+  border: 1.8px solid #182C61;
+  border-radius: 22px;
+  color: solid #182C61;
+  background: white;
+
+}
+
+.register-btn:hover{
+    background: #182C61;
+    color: white;
+  }
+.register-image{
+  margin-top: -600px;
+  width:550px;
+  height:400px;
+  contain: content;
+  margin-bottom: 20px;
+  margin-left: -3%;
+  
+}
+.register-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  flex-wrap: wrap;
+}
+.register-img{
+  border-radius: 16%;
+  padding: 2%;
+}
+input[type="password"]
+{
+  -webkit-text-security: disc;
+}

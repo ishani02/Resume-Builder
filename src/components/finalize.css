@@ -1,0 +1,49 @@
+
+.finalize{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;    
+}
+
+.final-preview{
+    box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+    width: 40%;
+    height:100%;
+    margin-left: -3%;
+   position: sticky;
+   background-color: rgb(235, 235, 235);
+} 
+ .final-templates{
+    width: 25%;
+    height: 100%;
+    margin-top: 20px; 
+}
+.slides .slick-prev,
+.slides .slick-next {
+  top: 50%;
+  z-index:1;
+ 
+}
+
+.slick-next{
+  margin-right: 3%;
+
+}
+
+.slick-prev{
+  margin-left: 2.5%;
+}
+.slick-prev::before, .slick-next::before { color:rgb(0, 0, 0) !important; }
+
+.download-btn{
+  
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: left;
+  width: 20%;
+  margin-top: 135px;
+  margin-left: -1%;
+}
+

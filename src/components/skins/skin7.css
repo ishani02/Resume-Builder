@@ -1,0 +1,83 @@
+.skin-header{
+    margin-left: 7px;
+
+}
+.name{
+    text-decoration: solid;
+    font-size:50px;
+}
+
+.address{
+    justify-content: space-between;
+    color: gray;
+}
+
+.professional-summary{
+ margin-top: 30px;
+ margin-left: 7px;
+
+}
+.profession-summary-heading{
+font-size: x-large;
+border-bottom: 2px solid;
+  }
+  
+.profession-description{
+    margin-top: 7px;
+    
+}
+
+.skills{
+    margin-top: 30px;
+    margin-left: 7px;
+}
+.skills-heading{
+    font-size: x-large;
+    border-bottom: 2px solid;
+}
+.skills-description{
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description li{
+    /* text-align: right; */
+    /* background-position:100%;
+    padding-right: 2px; */
+    /* justify-content:space-between; */
+   
+    
+    }
+
+.experience{
+    margin-top: 30px;
+    margin-left: 7px;  
+}
+
+.experience-heading{
+    font-size: x-large;
+    border-bottom: 2px solid;
+}
+.experience-description{
+    margin-top: 7px;
+    justify-content: space-between;
+    
+}
+
+.experience-description li{
+    list-style-type: none;
+}
+.Education{
+    margin-left: 7px;
+}
+.education-heading{
+    margin-top: 25px;
+    font-size: x-large;
+    border-bottom: 2px solid;
+}
+
+.education-description{
+    margin-top: 7px;
+    height: 100%;
+}
