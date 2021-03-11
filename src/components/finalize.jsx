@@ -61,7 +61,7 @@ class Finalize extends Component {
         
         <div className="final-templates">
          
-         <Slider >
+         <Slider {...settings}>
         {skinCodes.map( (skin) =>{
             let className = skin.value == skinCode ? "selected-skin" : "";
             return <div key = {skin.id} className={`template ${className}`} >

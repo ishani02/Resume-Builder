@@ -15,7 +15,7 @@ const Register = () => {
 <form>
 <label>
 <b>EMAIL</b>   
- <input type="text" name="email" placeholder="Email" />
+ <input type="email"  name="email" placeholder="Email" />
 </label>
 
 <label>
@@ -25,7 +25,7 @@ const Register = () => {
 
 <label>
 <b>CONFIRM PASSWORD</b>
- <input type="text" name="pw-confirm" placeholder="Confirm Password"/>
+ <input type="password" name="pw-confirm" placeholder="Confirm Password"/>
 </label>
 </form>
 </div>
