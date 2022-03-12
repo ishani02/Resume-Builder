@@ -10,7 +10,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-
 class Finalize extends Component {
     state = { 
         contact: this.props.contact,
@@ -36,7 +35,7 @@ class Finalize extends Component {
         dots: true,
         infinite: true,
         speed: 500,
-        centerMode: true,
+        // centerMode: true,
         slidesToShow: 1,
         slidesToScroll: 1,
        // nextArrow: <SampleNextArrow />,
@@ -59,8 +58,8 @@ class Finalize extends Component {
           </Pdf>
         </div>
         
-        <div className="final-templates">
-         
+        {/* <div className="final-templates">
+     
          <Slider {...settings}>
         {skinCodes.map( (skin) =>{
             let className = skin.value == skinCode ? "selected-skin" : "";
@@ -70,8 +69,24 @@ class Finalize extends Component {
           </div>
           })}
           </Slider>
-  
-          </div>
+
+          </div> */}
+
+<div className="templates-final">
+<Slider>
+{skinCodes.map(  ( skin ) => {
+let className = skin.value == skinCode ? "selected-skin"  : "";
+return (
+  <div className="template-container">
+<div key = {skin.id} className={`template new ${className}`} >
+    <img src= {`/images/${skin.value}.svg`} alt="" />
+   <button class="template-btn" onClick = { ()=> {this.handleSkinSelect(skin.value)} }>USE TEMPLATE</button>
+  </div>
+  </div>
+)
+})}
+</Slider>
+</div>
         </div>
       
     );

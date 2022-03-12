@@ -29,7 +29,8 @@ class Education extends Component {
 
     render() { 
         let{contact,education}=this.state;
-        return ( <div className="contact">
+        return (
+          <div className="contact">
         <div className="contact-form">
         <div className="contact-heading">
                 <h1>Education Details</h1>
@@ -62,6 +63,10 @@ class Education extends Component {
                 <div className="input-group full">
                     <label htmlFor="">Graduation Year</label>
                     <input type="text" id="graduationYear" value={education.graduationYear} onChange={ (e) =>{  this.onChangeHandler(e)  }   }/>
+                </div>
+                <div className="input-group full">
+                    <label htmlFor="">Experience</label>
+                    <input type="text" id="graduationYear" value={education.experience} onChange={ (e) =>{  this.onChangeHandler(e)  }   }/>
                 </div>
                 <div className="next full">
                     <button className="btn" onClick={ this.onSubmitEducationDetails }>Next</button>

@@ -13,6 +13,10 @@
     object-fit: contain;
     margin-left: 1.5%;
 }
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+}
 
 .header-logo img:hover{
   opacity: 0.7;
@@ -38,7 +42,7 @@
 
 .header-links ul li a{
     text-decoration: none;
-    color: black;
+    color: #1167b1;
     
     /* justify-content: space-between; */
 

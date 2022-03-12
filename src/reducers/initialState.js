@@ -29,6 +29,7 @@ export const initialState = {
         city:"New Delhi",
         state:"Delhi",
         graduationMonth:"August",
-        graduationYear:"2020"
+        graduationYear:"2020",
+        experience:"Teaching Assistant"
     }
 }

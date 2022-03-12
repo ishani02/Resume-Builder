@@ -48,7 +48,7 @@ render() {
            <div className="heading">
           <h1><b>DID YOU KNOW?</b></h1>
           <p>Your Resume is the bridge between you and your dream job.</p>
-          <p className="p2">So,never underestimate the power of a good resume.</p>
+          <p className="p2">So, never underestimate the power of a good resume.</p>
         </div>
         <img src={backgroundimage} alt="" className="bgimgg" />
         

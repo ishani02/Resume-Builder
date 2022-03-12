@@ -21,7 +21,7 @@ else if(action.type=="LOGIN_FAILED"){
         message: action.error
     }
 }
-else if(action.tyoe == "LOGOUT_FAILED"){
+else if(action.type == "LOGOUT_FAILED"){
     console.log(action.error);
     return state;
   }

@@ -75,7 +75,7 @@ componentWillReceiveProps(newProps){//this func changes state finally i.e. next 
                </div>
                <div className="input-group">
                  <label htmlFor="">Profession</label>
-                 <input type="text" id="profession" value={contact.professional} onChange={(e)=>{this.onChangeHandler(e)}}/>
+                 <input type="text" id="profession" value={contact.profession} onChange={(e)=>{this.onChangeHandler(e)}}/>
                </div>
                <div className="input-group">
                  <label htmlFor="">Street</label>
