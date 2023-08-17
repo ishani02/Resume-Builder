@@ -15,8 +15,8 @@
     "react-scripts": "4.0.0",
     "react-simple-image-slider": "^2.1.2",
     "react-slick": "^0.28.0",
-    "react-slideshow-image": "^3.4.3",
-    "react-to-pdf": "0.0.13",
+    "react-slideshow-image": "^4.2.1",
+    "react-to-pdf": "^0.0.14",
     "redux": "^4.0.5",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^0.2.4"
